@@ -4,6 +4,7 @@
  * 主題：Classroom Rules & R-Controlled Vowels
  */
 
+window.BOOK_ID = "P7";
 const P7_VOCABULARY = [
   {
     "id": "alphabet",
@@ -610,7 +611,7 @@ const PHONICS_GROUPS = {
     "eraser",
     "marker"
   ],
-  "ir/ur": [
+  "ir_ur": [
     "bird",
     "girl",
     "stir",
@@ -624,64 +625,59 @@ const PHONICS_GROUPS = {
 // 課文動作與問答情境題庫
 const ANIMAL_ACTION_QUESTIONS = [
   {
-    "subject": "Teacher",
-    "action": "say",
-    "sentence": "Please stand up and sing together.",
-    "question": "What is the teacher's rule?",
+    "sentence": "The teacher says: Please stand up and sing.",
+    "question": "What does the teacher say?",
+    "ttsPrompt": "The teacher says: Please stand up and sing. What does the teacher say?",
     "options": [
       "stand up",
       "sit down",
-      "sleep"
+      "be quiet"
     ],
     "correct": "stand up"
   },
   {
-    "subject": "Students",
-    "action": "listen",
-    "sentence": "Listen carefully in the classroom.",
-    "question": "What should students do?",
+    "sentence": "Please sit down on your wooden chair.",
+    "question": "Where should you sit down?",
+    "ttsPrompt": "Please sit down on your wooden chair. Where should you sit down?",
     "options": [
-      "listen",
-      "run",
-      "shout"
+      "chair",
+      "desk",
+      "door"
     ],
-    "correct": "listen"
+    "correct": "chair"
   },
   {
-    "subject": "Boy",
-    "action": "raise hand",
-    "sentence": "Raise your hand before you speak.",
-    "question": "What should you raise?",
-    "options": [
-      "raise hand",
-      "open book",
-      "make a line"
-    ],
-    "correct": "raise hand"
-  },
-  {
-    "subject": "Girl",
-    "action": "be quiet",
-    "sentence": "Be quiet when reading in the library.",
-    "question": "What should we do?",
+    "sentence": "Be quiet when reading a story in the library.",
+    "question": "What is the classroom rule?",
+    "ttsPrompt": "Be quiet when reading a story in the library. What is the rule?",
     "options": [
       "be quiet",
       "stand up",
-      "stir"
+      "make a line"
     ],
     "correct": "be quiet"
   },
   {
-    "subject": "Class",
-    "action": "make a line",
-    "sentence": "Make a line to go outside.",
-    "question": "What should the class do?",
+    "sentence": "Use your yellow ruler to measure the long line.",
+    "question": "What tool do you use to measure?",
+    "ttsPrompt": "Use your yellow ruler to measure the long line. What tool do you use?",
     "options": [
-      "make a line",
-      "close book",
-      "sit down"
+      "ruler",
+      "eraser",
+      "pen"
     ],
-    "correct": "make a line"
+    "correct": "ruler"
+  },
+  {
+    "sentence": "Open your book and look at the lesson.",
+    "question": "What should you open?",
+    "ttsPrompt": "Open your book and look at the lesson. What should you open?",
+    "options": [
+      "open book",
+      "close book",
+      "raise hand"
+    ],
+    "correct": "open book"
   }
 ];
 
